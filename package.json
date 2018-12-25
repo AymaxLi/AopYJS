@@ -1,0 +1,12 @@
+{
+  "name": "aopy",
+  "version": "1.0.0",
+  "author": "AymaxLi",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "main": "index.js",
+  "keywords": ["JavaScript", "AOP", "Aspect Oriented Programming" ,"面向切面编程", "无侵入注入"],
+  "license": "ISC",
+  "description": "AOP 的 JavaScript 实现，用于函数的无侵入注入"
+}
