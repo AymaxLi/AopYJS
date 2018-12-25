@@ -10,9 +10,10 @@ const ctx = {
 const aop = new AopYJS(ctx)
 
 aop.$before('laugh', _ => new Promise(resolve => {
+  console.log('open mouth')
   console.log('wait 2s ...')
+
   setTimeout(_ => {
-    console.log('open mouth')
     resolve(true)
   }, 2000)
 }))
